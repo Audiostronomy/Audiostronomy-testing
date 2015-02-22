@@ -32,3 +32,6 @@ while True:
     if not(args.loop):
         break
     time.sleep(0.5)
+
+midi_out.close()
+pygame.midi.quit()
